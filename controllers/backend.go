@@ -110,7 +110,7 @@ func (r *VisitorsAppReconciler) backendService(v *appv1.VisitorsApp) *corev1.Ser
 				Protocol:   corev1.ProtocolTCP,
 				Port:       backendPort,
 				TargetPort: intstr.FromInt(backendPort),
-				NodePort:   30685,
+				NodePort:   backendServicePort,
 			}},
 			Type: corev1.ServiceTypeNodePort,
 		},
