@@ -1,4 +1,4 @@
-apiVersion: app.redhat-scholars.github.io/v1
+apiVersion: app.redhat.com/v1
 kind: VisitorsApp
 metadata:
   name: visitorsapp-sample

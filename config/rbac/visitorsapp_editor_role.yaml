@@ -5,7 +5,7 @@ metadata:
   name: visitorsapp-editor-role
 rules:
 - apiGroups:
-  - app.redhat-scholars.github.io
+  - app.redhat.com
   resources:
   - visitorsapps
   verbs:
@@ -17,7 +17,7 @@ rules:
   - update
   - watch
 - apiGroups:
-  - app.redhat-scholars.github.io
+  - app.redhat.com
   resources:
   - visitorsapps/status
   verbs:

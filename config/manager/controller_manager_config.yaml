@@ -8,4 +8,4 @@ webhook:
   port: 9443
 leaderElection:
   leaderElect: true
-  resourceName: 992e60fb.redhat-scholars.github.io
+  resourceName: 992e60fb.redhat.com

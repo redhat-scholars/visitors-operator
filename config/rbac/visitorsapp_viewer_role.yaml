@@ -5,7 +5,7 @@ metadata:
   name: visitorsapp-viewer-role
 rules:
 - apiGroups:
-  - app.redhat-scholars.github.io
+  - app.redhat.com
   resources:
   - visitorsapps
   verbs:
@@ -13,7 +13,7 @@ rules:
   - list
   - watch
 - apiGroups:
-  - app.redhat-scholars.github.io
+  - app.redhat.com
   resources:
   - visitorsapps/status
   verbs:
